@@ -10,12 +10,14 @@ import { CustomLayout } from './layout/CustomLayout';
 import { LazyLanding } from './component/landing/LazyLanding';
 import { LazyPage2 } from './component/LazyPage2';
 import { LazyPage3 } from './component/LazyPage3';
+// @ts-ignore
+import Home from './home';
 
 const App = () => (
   <BrowserRouter basename="/react-pipeline">
     <CustomLayout>
       <Routes>
-        <Route path="/landing" element={<LazyLanding />} />
+        <Route path="/landing" element={<Home />} />
         <Route path="/page2" element={<LazyPage2 />} />
         <Route path="/page3" element={<LazyPage3 />} />
         <Route
