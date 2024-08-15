@@ -44,22 +44,23 @@ export const header = [
     ],
   },
 ];
+
 export const banner = [
   {
     img: 'https://gw.alipayobjects.com/zos/rmsportal/cTyLQiaRrpzxFAuWwoDQ.svg',
     imgMobile: 'https://gw.alipayobjects.com/zos/rmsportal/ksMYqrCyhwQNdBKReFIU.svg',
     className: 'seeconf-wrap',
     children: [
-      { children: 'Seeking Experience & Engineering Conference', className: 'seeconf-en-name' },
-      { children: '首届蚂蚁体验科技大会', className: 'seeconf-title', tag: 'h1' },
-      { children: '探索极致用户体验与最佳工程实践', className: 'seeconf-cn-name' },
+      { children: 'COSOJ', className: 'seeconf-en-name' },
+      { children: 'Self-Hostable & Open Source', className: 'seeconf-title', tag: 'h1' },
+      { children: 'A platform for coding competitions and practice', className: 'seeconf-cn-name' },
       {
-        children: '了解详细',
+        children: 'Learn More',
         className: 'banner-button',
         tag: 'button',
-        link: 'https://seeconf.alipay.com/',
+        link: 'https://your-website.com/',
       },
-      { children: '2018.01.06 / 中国·杭州', className: 'seeconf-time' },
+      { children: '2022.01.01 / Your City', className: 'seeconf-time' },
     ],
   },
   {
@@ -67,19 +68,20 @@ export const banner = [
     imgMobile: 'https://gw.alipayobjects.com/zos/rmsportal/ksMYqrCyhwQNdBKReFIU.svg',
     className: 'seeconf-wrap',
     children: [
-      { children: 'Seeking Experience & Engineering Conference', className: 'seeconf-en-name' },
-      { children: '首届蚂蚁体验科技大会', className: 'seeconf-title', tag: 'h1' },
-      { children: '探索极致用户体验与最佳工程实践', className: 'seeconf-cn-name' },
+      { children: 'COSOJ', className: 'seeconf-en-name' },
+      { children: 'Self-Hostable & Open Source', className: 'seeconf-title', tag: 'h1' },
+      { children: 'A platform for coding competitions and practice', className: 'seeconf-cn-name' },
       {
-        children: '了解详细',
+        children: 'Learn More',
         className: 'banner-button',
         tag: 'button',
-        link: 'https://seeconf.alipay.com/',
+        link: 'https://your-website.com/',
       },
-      { children: '2018.01.06 / 中国·杭州', className: 'seeconf-time' },
+      { children: '2022.01.01 / Your City', className: 'seeconf-time' },
     ],
   },
 ];
+
 export const page1 = {
   title: 'Principles',
   children: [
@@ -93,7 +95,7 @@ export const page1 = {
     },
     {
       title: 'Open Source',
-      content: 'No more vendor lock-in. We are open source from day one.',
+      content: 'No more vendor lock-in or tracking. We are open source from day one.',
       src: 'https://gw.alipayobjects.com/zos/rmsportal/qIcZMXoztWjrnxzCNTHv.svg',
       color: '#1890FF',
       shadowColor: 'rgba(15, 93, 166, 0.08)',
