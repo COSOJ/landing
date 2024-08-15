@@ -67,8 +67,9 @@ export default function Footer() {
                 《蚂蚁金服客户权益保障承诺书》
                 </a>
               </span>
-              <span style={{ marginRight: 12 }}>ICP证:浙B2-20100257</span>
-              <span style={{ marginRight: 12 }}>Copyright © 2017 蚂蚁金融服务集团</span>
+              { /* @ts-ignore */}      
+              <span style={{ marginRight: 12 }}>{__HEAD_COMMIT_HASH__ ? `Trace: ${__HEAD_COMMIT_HASH__}` : ""}</span>
+              <span style={{ marginRight: 12 }}>&copy; {new Date().getFullYear()} - Maifee Ul Asad</span>
             </Col>
           </Row>
         </div>
