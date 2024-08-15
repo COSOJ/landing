@@ -81,27 +81,27 @@ export const banner = [
   },
 ];
 export const page1 = {
-  title: '自然好用的设计',
+  title: 'Principles',
   children: [
     {
-      title: '设计价值观',
-      content: 'Design Values',
+      title: 'Innovative',
+      content: 'We are open for ideas, and we are trying to fund open source contributions',
       src: 'https://gw.alipayobjects.com/zos/rmsportal/KtRzkMmxBuWCVjPbBgRY.svg',
       color: '#EB2F96',
       shadowColor: 'rgba(166, 55, 112, 0.08)',
       link: 'https://ant.design/docs/spec/values-cn',
     },
     {
-      title: '视觉',
-      content: 'Visual',
+      title: 'Open Source',
+      content: 'No more vendor lock-in. We are open source from day one.',
       src: 'https://gw.alipayobjects.com/zos/rmsportal/qIcZMXoztWjrnxzCNTHv.svg',
       color: '#1890FF',
       shadowColor: 'rgba(15, 93, 166, 0.08)',
       link: 'https://ant.design/docs/spec/colors-cn',
     },
     {
-      title: '可视化',
-      content: 'Visualisation',
+      title: 'Metrics Driven',
+      content: 'Easy to visualize and track performance',
       src: 'https://gw.alipayobjects.com/zos/rmsportal/eLtHtrKjXfabZfRchvVT.svg',
       color: '#AB33F7',
       shadowColor: 'rgba(112, 73, 166, 0.08)',
@@ -127,7 +127,7 @@ export const page3 = {
 };
 
 export const page4 = {
-  title: '众多企业正在使用',
+  title: 'Our Commercial Partners',
   children: [
     'https://gw.alipayobjects.com/zos/rmsportal/qImQXNUdQgqAKpPgzxyK.svg', // 阿里巴巴
     'https://gw.alipayobjects.com/zos/rmsportal/LqRoouplkwgeOVjFBIRp.svg', // 蚂蚁金服
