@@ -1,7 +1,8 @@
 import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import { Row, Col, Icon } from 'antd';
+import { Row, Col } from 'antd';
+import Icon from '@ant-design/icons';
 
 import Tetris from './technology-comp/Tetris';
 import Column from './technology-comp/Column';
