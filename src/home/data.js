@@ -144,38 +144,46 @@ export const page4 = {
 
 export const footer = [
   {
-    title: '蚂蚁科技',
+    title: 'Frontend Technologies',
     children: [
-      { title: '蚂蚁金服开放平台', link: 'https://open.alipay.com' },
-      { title: '蚂蚁体验云', link: 'https://xcloud.alipay.com' },
-      { title: '蚂蚁金融云', link: 'https://www.cloud.alipay.com' },
+      { title: 'React', link: 'https://reactjs.org' },
+      { title: 'TypeScript', link: 'https://www.typescriptlang.org' },
+      { title: 'Ant Design', link: 'https://ant.design' },
+      { title: 'AntV', link: 'https://antv.alipay.com' },
+      { title: 'Node.js', link: 'https://nodejs.org' },
     ],
   },
   {
-    title: '相关会议',
+    title: 'Backend Technologies',
     children: [
-      { title: 'ATEC', link: 'https://atec.antfin.com' },
-      { title: 'SEE Conf', link: 'https://seeconf.alipay.com' },
+      { title: 'Spring Boot', link: 'https://spring.io/projects/spring-boot' },
+      { title: 'NestJS', link: 'https://nestjs.com' },
+      { title: 'Node.js', link: 'https://nodejs.org' },
     ],
   },
   {
-    title: '联系我们',
+    title: 'Infrastructure & DevOps',
     children: [
-      { title: '蚂蚁金服体验科技专栏', link: 'https://zhuanlan.zhihu.com/xtech' },
-      { title: '蚂蚁金服体验科技官微', link: 'https://weibo.com/p/1005056420205486' },
-      { title: 'AntV 官微', link: 'https://weibo.com/antv2017' },
-      { title: 'Ant Design 专栏', link: 'https://zhuanlan.zhihu.com/antdesign' },
+      { title: 'Kubernetes', link: 'https://kubernetes.io' },
+      { title: 'Docker', link: 'https://www.docker.com' },
+      { title: 'Helm', link: 'https://helm.sh' },
+      { title: 'MinIO', link: 'https://min.io' },
+      { title: 'Grafana', link: 'https://grafana.com' },
+      { title: 'Prometheus', link: 'https://prometheus.io' },
     ],
   },
   {
-    title: '蚂蚁体验云',
-    icon: 'https://gw.alipayobjects.com/zos/rmsportal/wdarlDDcdCaVoCprCRwB.svg',
+    title: 'Data & Visualization',
     children: [
-      { title: 'Ant Design', desc: '蚂蚁 UI 体系', link: 'https://ant.design' },
-      { title: 'AntV', desc: '蚂蚁数据可视化方案', link: 'https://antv.alipay.com' },
-      // { title: 'AntG', desc: '蚂蚁互动图形技术', link: 'http://antg.alipay.net' },
-      { title: 'Egg', desc: '企业级 Node Web 开发框架', link: 'https://eggjs.org' },
-      { title: '云凤蝶', desc: '移动建站平台', link: 'https://fengdie.alipay-eco.com/intro' },
+      { title: 'Data Visualization', link: 'https://antv.alipay.com' },
+      { title: 'Chart.js', link: 'https://www.chartjs.org' },
+      { title: 'D3.js', link: 'https://d3js.org' },
+    ],
+  },
+  {
+    title: 'Contact Us',
+    children: [
+      { title: 'GitHub', link: 'https://github.com/cosoj' },
     ],
   },
 ];
