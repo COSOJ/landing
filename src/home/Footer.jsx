@@ -42,7 +42,7 @@ export default function Footer() {
                 target="_blank"
                 style={{ color: 'rgba(256, 256, 256, 0.9)', textAlign: 'left' }}
               >
-              诚征英才
+              Career
               </a>
             </Col>
             <Col md={20} xs={24}>
@@ -55,7 +55,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                《蚂蚁金服隐私权政策》
+                 Policy
                 </a>
               </span>
               <span style={{ marginRight: 24 }} className="mobile-hide">
@@ -64,7 +64,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                《蚂蚁金服客户权益保障承诺书》
+                Customer Service
                 </a>
               </span>
               { /* @ts-ignore */}      
