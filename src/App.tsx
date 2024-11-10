@@ -10,12 +10,12 @@ import {
 import Home from './home';
 
 const App = () => (
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="/landing">
       <Routes>
-        <Route path="/landing" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route
           path="*"
-          element={<Navigate to="/landing" replace />}
+          element={<Navigate to="/" replace />}
         />
       </Routes>
   </BrowserRouter >
