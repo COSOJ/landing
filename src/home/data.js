@@ -113,7 +113,7 @@ export const page1 = {
 };
 
 export const page3 = {
-  title: '大家都喜爱的产品',
+  title: 'Demonstration',
   children: [
     {
       img: 'https://gw.alipayobjects.com/zos/rmsportal/iVOzVyhyQkQDhRsuyBXC.svg',
