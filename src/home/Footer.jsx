@@ -1,6 +1,51 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import { footer } from './data';
+
+const footer = [
+  {
+    title: 'Frontend Technologies',
+    children: [
+      { title: 'React', link: 'https://reactjs.org' },
+      { title: 'TypeScript', link: 'https://www.typescriptlang.org' },
+      { title: 'Ant Design', link: 'https://ant.design' },
+      { title: 'AntV', link: 'https://antv.alipay.com' },
+      { title: 'Node.js', link: 'https://nodejs.org' },
+    ],
+  },
+  {
+    title: 'Backend Technologies',
+    children: [
+      { title: 'Spring Boot', link: 'https://spring.io/projects/spring-boot' },
+      { title: 'NestJS', link: 'https://nestjs.com' },
+      { title: 'Node.js', link: 'https://nodejs.org' },
+    ],
+  },
+  {
+    title: 'Infrastructure & DevOps',
+    children: [
+      { title: 'Kubernetes', link: 'https://kubernetes.io' },
+      { title: 'Docker', link: 'https://www.docker.com' },
+      { title: 'Helm', link: 'https://helm.sh' },
+      { title: 'MinIO', link: 'https://min.io' },
+      { title: 'Grafana', link: 'https://grafana.com' },
+      { title: 'Prometheus', link: 'https://prometheus.io' },
+    ],
+  },
+  {
+    title: 'Data & Visualization',
+    children: [
+      { title: 'Data Visualization', link: 'https://antv.alipay.com' },
+      { title: 'Chart.js', link: 'https://www.chartjs.org' },
+      { title: 'D3.js', link: 'https://d3js.org' },
+    ],
+  },
+  {
+    title: 'Contact Us',
+    children: [
+      { title: 'GitHub', link: 'https://github.com/cosoj' },
+    ],
+  },
+];
 
 export default function Footer() {
   return (

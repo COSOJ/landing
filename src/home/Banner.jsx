@@ -3,10 +3,46 @@ import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 import BannerAnim from 'rc-banner-anim';
 import { Button } from 'antd';
-import { banner } from './data';
 
 const { Element } = BannerAnim;
 const { BgElement } = Element;
+
+const banner = [
+  {
+    img: 'https://gw.alipayobjects.com/zos/rmsportal/cTyLQiaRrpzxFAuWwoDQ.svg',
+    imgMobile: 'https://gw.alipayobjects.com/zos/rmsportal/ksMYqrCyhwQNdBKReFIU.svg',
+    className: 'seeconf-wrap',
+    children: [
+      { children: 'COSOJ', className: 'seeconf-en-name' },
+      { children: 'Self-Hostable & Open Source', className: 'seeconf-title', tag: 'h1' },
+      { children: 'A platform for coding competitions and practice', className: 'seeconf-cn-name' },
+      {
+        children: 'Learn More',
+        className: 'banner-button',
+        tag: 'button',
+        link: 'https://your-website.com/',
+      },
+      { children: '2022.01.01 / Your City', className: 'seeconf-time' },
+    ],
+  },
+  {
+    img: 'https://gw.alipayobjects.com/zos/rmsportal/cTyLQiaRrpzxFAuWwoDQ.svg',
+    imgMobile: 'https://gw.alipayobjects.com/zos/rmsportal/ksMYqrCyhwQNdBKReFIU.svg',
+    className: 'seeconf-wrap',
+    children: [
+      { children: 'COSOJ', className: 'seeconf-en-name' },
+      { children: 'Self-Hostable & Open Source', className: 'seeconf-title', tag: 'h1' },
+      { children: 'A platform for coding competitions and practice', className: 'seeconf-cn-name' },
+      {
+        children: 'Learn More',
+        className: 'banner-button',
+        tag: 'button',
+        link: 'https://your-website.com/',
+      },
+      { children: '2022.01.01 / Your City', className: 'seeconf-time' },
+    ],
+  },
+];
 
 class Banner extends React.PureComponent {
   getDuration = (e) => {

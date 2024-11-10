@@ -3,7 +3,36 @@ import QueueAnim from 'rc-queue-anim';
 import { TweenOneGroup } from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { Row, Col } from 'antd';
-import { page1 } from './data';
+
+const page1 = {
+  title: 'Principles',
+  children: [
+    {
+      title: 'Innovative',
+      content: 'We are open for ideas, and we are trying to fund open source contributions',
+      src: 'https://gw.alipayobjects.com/zos/rmsportal/KtRzkMmxBuWCVjPbBgRY.svg',
+      color: '#EB2F96',
+      shadowColor: 'rgba(166, 55, 112, 0.08)',
+      link: 'https://ant.design/docs/spec/values-cn',
+    },
+    {
+      title: 'Open Source',
+      content: 'No more vendor lock-in or tracking. We are open source from day one.',
+      src: 'https://gw.alipayobjects.com/zos/rmsportal/qIcZMXoztWjrnxzCNTHv.svg',
+      color: '#1890FF',
+      shadowColor: 'rgba(15, 93, 166, 0.08)',
+      link: 'https://ant.design/docs/spec/colors-cn',
+    },
+    {
+      title: 'Metrics Driven',
+      content: 'Easy to visualize and track performance',
+      src: 'https://gw.alipayobjects.com/zos/rmsportal/eLtHtrKjXfabZfRchvVT.svg',
+      color: '#AB33F7',
+      shadowColor: 'rgba(112, 73, 166, 0.08)',
+      link: 'https://antv.alipay.com/zh-cn/vis/index.html',
+    },
+  ],
+};
 
 const pointPos = [
   { x: -90, y: -20 },
