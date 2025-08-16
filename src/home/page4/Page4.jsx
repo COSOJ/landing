@@ -8,6 +8,7 @@ const { Title } = Typography;
 const page4 = {
   title: 'Our Commercial Partners',
   children: [
+    // todo: add our clients' logos
     // 'https://gw.alipayobjects.com/zos/rmsportal/qImQXNUdQgqAKpPgzxyK.svg', // 阿里巴巴
     // 'https://gw.alipayobjects.com/zos/rmsportal/LqRoouplkwgeOVjFBIRp.svg', // 蚂蚁金服
     // 'https://gw.alipayobjects.com/zos/rmsportal/TLCyoAagnCGXUlbsMTWq.svg', // 人民网
