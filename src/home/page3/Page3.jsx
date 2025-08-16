@@ -1,4 +1,3 @@
-import 'react-html5video/dist/styles.css';
 import React from 'react';
 import TweenOne from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
