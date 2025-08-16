@@ -1,5 +1,6 @@
 import React from 'react';
 import TweenOne from 'rc-tween-one';
+import buildingBackground from './building-background.svg';
 
 let dataArray = [
   [
@@ -286,7 +287,7 @@ export default class Building extends React.PureComponent {
   render() {
     const { hover, isMobile } = this.props;
     if (isMobile) {
-      return <img src="https://gw.alipayobjects.com/zos/rmsportal/QerApYYMoRquqsSEbxeH.svg" alt="img" />;
+      return <img src={buildingBackground} alt="img" />;
     }
     const children = this.setAnimToTweenOne(hover);
     return (
