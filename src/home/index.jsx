@@ -10,11 +10,7 @@ import Page4 from './page4/Page4';
 import Footer from './footer/Footer';
 import './static/style';
 
-
-let isMobile = false;
-enquireScreen((b) => {
-  isMobile = b;
-});
+let isMobile = window.matchMedia('(max-width: 768px)').matches;
 
 
 class Home extends React.PureComponent {
@@ -24,10 +20,10 @@ class Home extends React.PureComponent {
   };
 
   componentDidMount() {
-    enquireScreen((b) => {
-      this.setState({
-        isMobile: !!b,
-      });
+    const mq = window.matchMedia('(max-width: 768px)');
+    this.setState({ isMobile: mq.matches });
+    mq.addEventListener('change', (e) => {
+      this.setState({ isMobile: e.matches });
     });
   }
   navToShadow = (e) => {
