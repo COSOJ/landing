@@ -4,10 +4,10 @@ import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { Row, Col } from 'antd';
 import Icon from '@ant-design/icons';
 
-import Tetris from './technology-comp/Tetris';
-import Column from './technology-comp/Column';
-import Coordinate from './technology-comp/Coordinate';
-import Building from './technology-comp/Building';
+import Tetris from '../technology-comp/Tetris';
+import Column from '../technology-comp/Column';
+import Coordinate from '../technology-comp/Coordinate';
+import Building from '../technology-comp/Building';
 
 
 const pageData = [

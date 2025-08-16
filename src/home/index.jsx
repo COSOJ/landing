@@ -4,7 +4,7 @@ import { enquireScreen } from 'enquire-js';
 import Header from './Header';
 import Banner from './Banner';
 import Page1 from './page1/Page1';
-import Page2 from './Page2';
+import Page2 from './page2/Page2';
 import Page3 from './Page3';
 import Page4 from './Page4';
 import Footer from './Footer';
