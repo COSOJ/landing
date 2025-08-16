@@ -13,7 +13,7 @@ const page1 = {
       src: 'https://gw.alipayobjects.com/zos/rmsportal/KtRzkMmxBuWCVjPbBgRY.svg',
       color: '#EB2F96',
       shadowColor: 'rgba(166, 55, 112, 0.08)',
-      link: 'https://ant.design/docs/spec/values-cn',
+      link: 'https://github.com/COSOJ',
     },
     {
       title: 'Open Source',
@@ -21,7 +21,7 @@ const page1 = {
       src: 'https://gw.alipayobjects.com/zos/rmsportal/qIcZMXoztWjrnxzCNTHv.svg',
       color: '#1890FF',
       shadowColor: 'rgba(15, 93, 166, 0.08)',
-      link: 'https://ant.design/docs/spec/colors-cn',
+      link: 'https://github.com/COSOJ',
     },
     {
       title: 'Metrics Driven',
@@ -29,7 +29,7 @@ const page1 = {
       src: 'https://gw.alipayobjects.com/zos/rmsportal/eLtHtrKjXfabZfRchvVT.svg',
       color: '#AB33F7',
       shadowColor: 'rgba(112, 73, 166, 0.08)',
-      link: 'https://antv.alipay.com/zh-cn/vis/index.html',
+      link: 'https://github.com/COSOJ',
     },
   ],
 };
