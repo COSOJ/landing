@@ -4,6 +4,8 @@ import TweenOne from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import BannerAnim from 'rc-banner-anim';
 import { DefaultPlayer as Video } from 'react-html5video';
+import iVOzVyhyQkQDhRsuyBXC from './iVOzVyhyQkQDhRsuyBXC.svg';
+import HxEfljPlykWElfhidpxR from './HxEfljPlykWElfhidpxR.svg';
 
 const { Element } = BannerAnim;
 const { BgElement } = Element;
@@ -12,13 +14,13 @@ const page3 = {
   title: 'Demonstration',
   children: [
     {
-      img: 'https://gw.alipayobjects.com/zos/rmsportal/iVOzVyhyQkQDhRsuyBXC.svg',
-      imgMobile: 'https://gw.alipayobjects.com/zos/rmsportal/HxEfljPlykWElfhidpxR.svg',
+      img: iVOzVyhyQkQDhRsuyBXC,
+      imgMobile: HxEfljPlykWElfhidpxR,
       src: 'https://gw.alipayobjects.com/os/rmsportal/gCFHQneMNZMMYEdlHxqK.mp4',
     },
     {
-      img: 'https://gw.alipayobjects.com/zos/rmsportal/iVOzVyhyQkQDhRsuyBXC.svg',
-      imgMobile: 'https://gw.alipayobjects.com/zos/rmsportal/HxEfljPlykWElfhidpxR.svg',
+      img: iVOzVyhyQkQDhRsuyBXC,
+      imgMobile: HxEfljPlykWElfhidpxR,
       src: 'https://gw.alipayobjects.com/os/rmsportal/gCFHQneMNZMMYEdlHxqK.mp4',
     },
   ],
