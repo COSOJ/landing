@@ -2,11 +2,11 @@ FROM node:18.18.2-alpine3.17
 
 COPY . .
 
-RUN yarn
+RUN npm install -g pnpm serve
 
-RUN yarn build
+RUN pnpm i
 
-RUN npm i -g serve
+RUN pnpm build
 
 EXPOSE 3010
 
