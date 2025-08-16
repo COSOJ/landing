@@ -1,5 +1,9 @@
 import React from 'react';
 import { Row, Col, Tooltip } from 'antd';
+import fLPzRmwAurHkPDVfHHiQ from './fLPzRmwAurHkPDVfHHiQ.svg';
+import zMeJnhxAtpXPZAUhUKJH from './zMeJnhxAtpXPZAUhUKJH.svg';
+import qkNZxQRDqvFJscXVDmKp from './qkNZxQRDqvFJscXVDmKp.svg';
+import MrUQjZNOJhYJCSZZuJDr from './MrUQjZNOJhYJCSZZuJDr.svg';
 
 const header = [
   {
@@ -8,7 +12,7 @@ const header = [
       {
         title: 'COSOJ',
         desc: 'Self-Hostable & Open Source',
-        img: 'https://gw.alipayobjects.com/zos/rmsportal/fLPzRmwAurHkPDVfHHiQ.svg',
+        img: fLPzRmwAurHkPDVfHHiQ,
         link: 'https://github.com/COSOJ', 
         top: '2px',
       },
@@ -20,19 +24,19 @@ const header = [
       {
         title: 'Innovative',
         desc: 'Open for ideas and funding open source contributions',
-        img: 'https://gw.alipayobjects.com/zos/rmsportal/zMeJnhxAtpXPZAUhUKJH.svg',
+        img: zMeJnhxAtpXPZAUhUKJH,
          link: 'https://github.com/COSOJ',
       },
       {
         title: 'Open Source',
         desc: 'No vendor lock-in or tracking. Open source from day one.',
-        img: 'https://gw.alipayobjects.com/zos/rmsportal/qkNZxQRDqvFJscXVDmKp.svg',
+        img: qkNZxQRDqvFJscXVDmKp,
         link: 'https://github.com/COSOJ',
       },
       {
         title: 'Metrics Driven',
         desc: 'Easy to visualize and track performance',
-        img: 'https://gw.alipayobjects.com/zos/rmsportal/MrUQjZNOJhYJCSZZuJDr.svg',
+        img: MrUQjZNOJhYJCSZZuJDr,
         link: 'https://github.com/COSOJ',
       },
     ],
@@ -43,7 +47,7 @@ const header = [
       {
         title: 'All Platforms & Devices',
         desc: 'Web, Mobile, Desktop',
-        img: 'https://gw.alipayobjects.com/zos/rmsportal/fLPzRmwAurHkPDVfHHiQ.svg',
+        img: fLPzRmwAurHkPDVfHHiQ,
         link: 'https://github.com/COSOJ', 
         top: '2px',
       },
