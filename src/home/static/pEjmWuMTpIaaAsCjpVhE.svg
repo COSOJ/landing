@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="375px" height="2093px" viewBox="0 0 375 2093" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="46.5485594%" y1="104.55521%" x2="65.5651577%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#01028B" offset="0%"></stop>
+            <stop stop-color="#0529A7" offset="43.0834724%"></stop>
+            <stop stop-color="#0458C3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="体验云移动端展示" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -2034.000000)">
+        <g id="Group-14" transform="translate(0.000000, 2034.000000)">
+            <path d="M0,11.5311063 C59.0415196,26.9059147 121.54152,26.9059147 187.5,11.5311063 C253.45848,-3.8437021 315.95848,-3.8437021 375,11.5311063 L375,2093 L0,2093 L0,11.5311063 Z" id="Rectangle-20" fill="url(#linearGradient-1)" opacity="0.35" transform="translate(187.500000, 1046.500000) scale(-1, 1) translate(-187.500000, -1046.500000) "></path>
+            <path d="M0,11.5311063 C59.0415196,26.9059147 121.54152,26.9059147 187.5,11.5311063 C253.45848,-3.8437021 315.95848,-3.8437021 375,11.5311063 L375,2093 L0,2093 L0,11.5311063 Z" id="Rectangle-20" fill="url(#linearGradient-1)"></path>
+            <circle id="Oval-4" fill="#FFFFFF" opacity="0.4" cx="328" cy="65" r="2"></circle>
+            <circle id="Oval-4" fill="#FFFFFF" opacity="0.4" cx="106" cy="164" r="2"></circle>
+            <circle id="Oval-4" stroke="#FFFFFF" opacity="0.45" cx="44" cy="88" r="2"></circle>
+            <circle id="Oval-4" fill="#FFFFFF" opacity="0.4" cx="295" cy="92" r="2"></circle>
+        </g>
+    </g>
+</svg>
