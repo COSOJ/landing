@@ -3,7 +3,6 @@ import React from 'react';
 import TweenOne from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import BannerAnim from 'rc-banner-anim';
-import { DefaultPlayer as Video } from 'react-html5video';
 import iVOzVyhyQkQDhRsuyBXC from './iVOzVyhyQkQDhRsuyBXC.svg';
 import HxEfljPlykWElfhidpxR from './HxEfljPlykWElfhidpxR.svg';
 
@@ -16,12 +15,12 @@ const page3 = {
     {
       img: iVOzVyhyQkQDhRsuyBXC,
       imgMobile: HxEfljPlykWElfhidpxR,
-      src: 'https://gw.alipayobjects.com/os/rmsportal/gCFHQneMNZMMYEdlHxqK.mp4',
+      src: "https://youtu.be/dQw4w9WgXcQ?si=UlzsD8S-vI29xspm",
     },
     {
       img: iVOzVyhyQkQDhRsuyBXC,
       imgMobile: HxEfljPlykWElfhidpxR,
-      src: 'https://gw.alipayobjects.com/os/rmsportal/gCFHQneMNZMMYEdlHxqK.mp4',
+      src: "https://youtu.be/dQw4w9WgXcQ?si=UlzsD8S-vI29xspm",
     },
   ],
 };
@@ -33,15 +32,35 @@ export default class Page3 extends React.PureComponent {
     const children = page3.children.map((item, i) => (
       <Element key={i.toString()}>
         <BgElement className="banner" key="bg">
-          <Video
-            loop
-            muted
-            controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
-            poster={isMobile ? item.imgMobile : item.img}
-            key="video"
+          <button
+            style={{
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              padding: 0,
+            }}
+            onClick={() => {
+              const a = document.createElement('a');
+              a.href = item.src;
+              a.target = '_blank';
+              a.rel = 'noopener noreferrer';
+              document.body.appendChild(a);
+              a.click();
+              document.body.removeChild(a);
+            }}
           >
-            <source src={item.src} />
-          </Video>
+            <img
+              src={isMobile ? item.imgMobile : item.img}
+              alt="Video Thumbnail"
+              style={{ width: '100%', height: 'auto', display: 'block' }}
+            />
+            <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', pointerEvents: 'none' }}>
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                <circle cx="32" cy="32" r="32" fill="rgba(0,0,0,0.5)" />
+                <polygon points="26,20 48,32 26,44" fill="#fff" />
+              </svg>
+            </div>
+          </button>
         </BgElement>
       </Element>
 
