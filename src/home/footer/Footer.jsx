@@ -82,7 +82,7 @@ export default function Footer() {
           <Row>
             <Col md={4} xs={24} style={{ textAlign: 'left' }} className="mobile-hide">
               <a
-                href="https://weibo.com/p/1005056420205486"
+                href="https://github.com/COSOJ/career"
                 rel="noopener noreferrer"
                 target="_blank"
                 style={{ color: 'rgba(256, 256, 256, 0.9)', textAlign: 'left' }}
@@ -96,7 +96,7 @@ export default function Footer() {
                 style={{ lineHeight: '16px', paddingRight: 12, marginRight: 11 }}
               >
                 <a
-                  href="https://docs.alipay.com/policies/privacy/antfin"
+                  href="https://github.com/COSOJ/community"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -105,7 +105,7 @@ export default function Footer() {
               </span>
               <span style={{ marginRight: 24 }} className="mobile-hide">
                 <a
-                  href="https://render.alipay.com/p/f/fd-izto3cem/index.html"
+                  href="https://github.com/COSOJ/community"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
