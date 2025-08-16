@@ -3,14 +3,16 @@ import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 import BannerAnim from 'rc-banner-anim';
 import { Button } from 'antd';
+import backgroundDesktop from './background-desktop.svg';
+import backgroundMobile from './background-mobile.svg';
 
 const { Element } = BannerAnim;
 const { BgElement } = Element;
 
 const banner = [
   {
-    img: 'https://gw.alipayobjects.com/zos/rmsportal/cTyLQiaRrpzxFAuWwoDQ.svg',
-    imgMobile: 'https://gw.alipayobjects.com/zos/rmsportal/ksMYqrCyhwQNdBKReFIU.svg',
+    img: backgroundDesktop,
+    imgMobile: backgroundMobile,
     className: 'seeconf-wrap',
     children: [
       { children: 'COSOJ', className: 'seeconf-en-name' },
@@ -26,8 +28,8 @@ const banner = [
     ],
   },
   {
-    img: 'https://gw.alipayobjects.com/zos/rmsportal/cTyLQiaRrpzxFAuWwoDQ.svg',
-    imgMobile: 'https://gw.alipayobjects.com/zos/rmsportal/ksMYqrCyhwQNdBKReFIU.svg',
+    img: backgroundDesktop,
+    imgMobile: backgroundMobile,
     className: 'seeconf-wrap',
     children: [
       { children: 'COSOJ', className: 'seeconf-en-name' },
