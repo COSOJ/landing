@@ -3,6 +3,9 @@ import QueueAnim from 'rc-queue-anim';
 import { TweenOneGroup } from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { Row, Col } from 'antd';
+import KtRzkMmxBuWCVjPbBgRY from './KtRzkMmxBuWCVjPbBgRY.svg';
+import qIcZMXoztWjrnxzCNTHv from './qIcZMXoztWjrnxzCNTHv.svg';
+import eLtHtrKjXfabZfRchvVT from './eLtHtrKjXfabZfRchvVT.svg';
 
 const page1 = {
   title: 'Principles',
@@ -10,7 +13,7 @@ const page1 = {
     {
       title: 'Innovative',
       content: 'We are open for ideas, and we are trying to fund open source contributions',
-      src: 'https://gw.alipayobjects.com/zos/rmsportal/KtRzkMmxBuWCVjPbBgRY.svg',
+      src: KtRzkMmxBuWCVjPbBgRY,
       color: '#EB2F96',
       shadowColor: 'rgba(166, 55, 112, 0.08)',
       link: 'https://github.com/COSOJ',
@@ -18,7 +21,7 @@ const page1 = {
     {
       title: 'Open Source',
       content: 'No more vendor lock-in or tracking. We are open source from day one.',
-      src: 'https://gw.alipayobjects.com/zos/rmsportal/qIcZMXoztWjrnxzCNTHv.svg',
+      src: qIcZMXoztWjrnxzCNTHv,
       color: '#1890FF',
       shadowColor: 'rgba(15, 93, 166, 0.08)',
       link: 'https://github.com/COSOJ',
@@ -26,7 +29,7 @@ const page1 = {
     {
       title: 'Metrics Driven',
       content: 'Easy to visualize and track performance',
-      src: 'https://gw.alipayobjects.com/zos/rmsportal/eLtHtrKjXfabZfRchvVT.svg',
+      src: eLtHtrKjXfabZfRchvVT,
       color: '#AB33F7',
       shadowColor: 'rgba(112, 73, 166, 0.08)',
       link: 'https://github.com/COSOJ',
