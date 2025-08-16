@@ -2,7 +2,8 @@ import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { Row, Col } from 'antd';
-import Icon from '@ant-design/icons';
+import { LeftOutlined } from '@ant-design/icons';
+
 
 import Tetris from '../technology-comp/Tetris';
 import Column from '../technology-comp/Column';
@@ -15,9 +16,9 @@ const pageData = [
     title: 'Flexibility',
     content: 'Designed to work seamlessly across all platforms and devices',
     links: [
-      <a key="0" href="https://github.com/cosoj" target="_blank">Web&nbsp;&nbsp;<Icon type="right" /></a>,
-      <a key="1" href="https://github.com/cosoj" target="_blank">Mobile&nbsp;&nbsp;<Icon type="right" /></a>,
-      <a key="2" href="https://github.com/cosoj" target="_blank">Desktop&nbsp;&nbsp;<Icon type="right" /></a>,
+      <a key="0" href="https://github.com/cosoj" target="_blank">Web&nbsp;&nbsp;<LeftOutlined /></a>,
+      <a key="1" href="https://github.com/cosoj" target="_blank">Mobile&nbsp;&nbsp;<LeftOutlined /></a>,
+      <a key="2" href="https://github.com/cosoj" target="_blank">Desktop&nbsp;&nbsp;<LeftOutlined /></a>,
     ],
     Bg: Tetris,
   },
@@ -25,7 +26,7 @@ const pageData = [
     title: 'Data Visualization',
     content: 'Simple, professional, and endlessly customizable data visualization solutions',
     links: (
-      <a href="https://github.com/cosoj" target="_blank">View Details&nbsp;&nbsp;<Icon type="right" /></a>
+      <a href="https://github.com/cosoj" target="_blank">View Details&nbsp;&nbsp;<LeftOutlined /></a>
     ),
     Bg: Column,
   },
@@ -33,7 +34,7 @@ const pageData = [
     title: 'Kubernetes and Microservices',
     content: 'Harnessing the most resource-efficient and scalable system architecture',
     links: (
-      <a href="https://github.com/cosoj" target="_blank">View Details&nbsp;&nbsp;<Icon type="right" /></a>
+      <a href="https://github.com/cosoj" target="_blank">View Details&nbsp;&nbsp;<LeftOutlined /></a>
     ),
     Bg: Coordinate,
   },
@@ -41,7 +42,7 @@ const pageData = [
     title: 'Frameworks and Tools',
     content: 'Built with Kubernetes, Spring Boot, NestJS, React, TypeScript, Docker, and other tools, following best practices',
     links: (
-      <a href="https://github.com/cosoj" target="_blank">View Details&nbsp;&nbsp;<Icon type="right" /></a>
+      <a href="https://github.com/cosoj" target="_blank">View Details&nbsp;&nbsp;<LeftOutlined /></a>
     ),
     full: true,
     Bg: Building,
