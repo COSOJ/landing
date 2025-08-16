@@ -1,6 +1,5 @@
 import React from 'react';
 import DocumentTitle from 'react-document-title';
-import { enquireScreen } from 'enquire-js';
 import Header from './header/Header';
 import Banner from './banner/Banner';
 import Page1 from './page1/Page1';
